@@ -1,0 +1,539 @@
+{
+  "siteSettings": {
+    "hero_image_url": "/uploads/1768684749568-uh0hx8.JPG",
+    "hero_title_he": "אמנות עכשווית",
+    "hero_subtitle_he": "גלריה המתמחה ביצירות אמנות מודרניות ומינימליסטיות. כל יצירה נוצרת בקפידה ומשלבת אסתטיקה עכשווית עם טכניקות מודרניות.",
+    "contact_email": "arama.amir@gmail.com",
+    "contact_phone": "0515199250",
+    "instagram_url": "",
+    "facebook_url": ""
+  },
+  "paintings": [
+    {
+      "id": "painting-1",
+      "title_he": "שקיעה בים התיכון",
+      "subtitle_he": "ציור מקורי בעבודת יד",
+      "short_description_he": "יצירה מרהיבה המשלבת צבעים חמים של שקיעה עם גוונים כחולים עמוקים של הים. הציור נוצר בטכניקה מעורבת על בד קנבס איכותי.",
+      "status": "active",
+      "created_at": "2024-01-15T10:00:00.000Z",
+      "updated_at": "2026-02-09T12:33:47.146Z"
+    },
+    {
+      "id": "painting-2",
+      "title_he": "נוף הרים מופשט",
+      "subtitle_he": "אמנות מודרנית לבית",
+      "short_description_he": "פרשנות מודרנית ומינימליסטית של נוף הררי. שילוב של קווים נקיים וצבעים רכים יוצרים אווירה שלווה ומרגיעה.",
+      "status": "active",
+      "created_at": "2024-01-20T14:30:00.000Z",
+      "updated_at": "2026-01-18T06:09:23.609Z"
+    }
+  ],
+  "paintingMedia": [
+    {
+      "painting_id": "painting-1",
+      "media_type": "image",
+      "image_url": "/uploads/1768714549481-4k4sij.png",
+      "video_url": null,
+      "sort_order": 1,
+      "is_main": true,
+      "id": "media-1768714606365"
+    },
+    {
+      "painting_id": "painting-1",
+      "media_type": "image",
+      "image_url": "/uploads/1768714549535-zxjp48.png",
+      "video_url": null,
+      "sort_order": 3,
+      "is_main": false,
+      "id": "media-1768714606372"
+    },
+    {
+      "painting_id": "painting-1",
+      "media_type": "image",
+      "image_url": "/uploads/1768714549580-11zjf.png",
+      "video_url": null,
+      "sort_order": 4,
+      "is_main": false,
+      "id": "media-1768714606378"
+    },
+    {
+      "painting_id": "painting-1",
+      "media_type": "image",
+      "image_url": "/uploads/1768714549619-14kdoa.png",
+      "video_url": null,
+      "sort_order": 5,
+      "is_main": false,
+      "id": "media-1768714606397"
+    },
+    {
+      "painting_id": "painting-1",
+      "media_type": "image",
+      "image_url": "/uploads/1768714549661-rh2xf.jpg",
+      "video_url": null,
+      "sort_order": 6,
+      "is_main": false,
+      "id": "media-1768714606408"
+    },
+    {
+      "painting_id": "painting-1",
+      "media_type": "image",
+      "image_url": "/uploads/1768714549715-ebjfl3.jpg",
+      "video_url": null,
+      "sort_order": 7,
+      "is_main": false,
+      "id": "media-1768714606412"
+    },
+    {
+      "painting_id": "painting-1",
+      "media_type": "image",
+      "image_url": "/uploads/1768714549763-yi8htk.jpg",
+      "video_url": null,
+      "sort_order": 8,
+      "is_main": false,
+      "id": "media-1768714606416"
+    },
+    {
+      "painting_id": "painting-1",
+      "media_type": "video",
+      "image_url": null,
+      "video_url": "5Y6Xmq7JQQ8",
+      "sort_order": 8,
+      "is_main": false,
+      "id": "media-1768716329257"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560447-ingymf.png",
+      "video_url": null,
+      "sort_order": 1,
+      "is_main": true,
+      "id": "media-1768716563618"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560499-fyq75.png",
+      "video_url": null,
+      "sort_order": 2,
+      "is_main": false,
+      "id": "media-1768716563624"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560534-vm4yq.png",
+      "video_url": null,
+      "sort_order": 3,
+      "is_main": false,
+      "id": "media-1768716563628"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560573-c2mnc.png",
+      "video_url": null,
+      "sort_order": 4,
+      "is_main": false,
+      "id": "media-1768716563632"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560598-5qulie.png",
+      "video_url": null,
+      "sort_order": 5,
+      "is_main": false,
+      "id": "media-1768716563635"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560625-glcz3a.png",
+      "video_url": null,
+      "sort_order": 6,
+      "is_main": false,
+      "id": "media-1768716563638"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560652-16madi.jpg",
+      "video_url": null,
+      "sort_order": 7,
+      "is_main": false,
+      "id": "media-1768716563642"
+    },
+    {
+      "painting_id": "painting-2",
+      "media_type": "image",
+      "image_url": "/uploads/1768716560728-zjksd.jpg",
+      "video_url": null,
+      "sort_order": 8,
+      "is_main": false,
+      "id": "media-1768716563645"
+    }
+  ],
+  "paintingSizes": [
+    {
+      "id": "size-painting-1-1",
+      "painting_id": "painting-1",
+      "size_label_he": "40x40",
+      "price_ils": 1250,
+      "sort_order": 1,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-2",
+      "painting_id": "painting-1",
+      "size_label_he": "50x50",
+      "price_ils": 1800,
+      "sort_order": 2,
+      "is_active": true,
+      "is_default": true
+    },
+    {
+      "id": "size-painting-1-3",
+      "painting_id": "painting-1",
+      "size_label_he": "60x60",
+      "price_ils": 2400,
+      "sort_order": 3,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-4",
+      "painting_id": "painting-1",
+      "size_label_he": "70x70",
+      "price_ils": 3200,
+      "sort_order": 4,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-5",
+      "painting_id": "painting-1",
+      "size_label_he": "80x80",
+      "price_ils": 4200,
+      "sort_order": 5,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-6",
+      "painting_id": "painting-1",
+      "size_label_he": "90x90",
+      "price_ils": 5400,
+      "sort_order": 6,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-7",
+      "painting_id": "painting-1",
+      "size_label_he": "100x100",
+      "price_ils": 6800,
+      "sort_order": 7,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-8",
+      "painting_id": "painting-1",
+      "size_label_he": "120x120",
+      "price_ils": 9200,
+      "sort_order": 8,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-9",
+      "painting_id": "painting-1",
+      "size_label_he": "30x40",
+      "price_ils": 900,
+      "sort_order": 9,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-10",
+      "painting_id": "painting-1",
+      "size_label_he": "35x50",
+      "price_ils": 1300,
+      "sort_order": 10,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-11",
+      "painting_id": "painting-1",
+      "size_label_he": "40x60",
+      "price_ils": 1600,
+      "sort_order": 11,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-12",
+      "painting_id": "painting-1",
+      "size_label_he": "50x70",
+      "price_ils": 2200,
+      "sort_order": 12,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-13",
+      "painting_id": "painting-1",
+      "size_label_he": "60x80",
+      "price_ils": 2900,
+      "sort_order": 13,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-14",
+      "painting_id": "painting-1",
+      "size_label_he": "70x90",
+      "price_ils": 3800,
+      "sort_order": 14,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-15",
+      "painting_id": "painting-1",
+      "size_label_he": "80x100",
+      "price_ils": 4900,
+      "sort_order": 15,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-16",
+      "painting_id": "painting-1",
+      "size_label_he": "95x120",
+      "price_ils": 7200,
+      "sort_order": 16,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-17",
+      "painting_id": "painting-1",
+      "size_label_he": "55x70",
+      "price_ils": 2600,
+      "sort_order": 17,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-18",
+      "painting_id": "painting-1",
+      "size_label_he": "65x80",
+      "price_ils": 3400,
+      "sort_order": 18,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-19",
+      "painting_id": "painting-1",
+      "size_label_he": "75x90",
+      "price_ils": 4400,
+      "sort_order": 19,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-1-20",
+      "painting_id": "painting-1",
+      "size_label_he": "85x100",
+      "price_ils": 5600,
+      "sort_order": 20,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-1",
+      "painting_id": "painting-2",
+      "size_label_he": "40x40",
+      "price_ils": 1200,
+      "sort_order": 1,
+      "is_active": true,
+      "is_default": true
+    },
+    {
+      "id": "size-painting-2-2",
+      "painting_id": "painting-2",
+      "size_label_he": "50x50",
+      "price_ils": 1800,
+      "sort_order": 2,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-3",
+      "painting_id": "painting-2",
+      "size_label_he": "60x60",
+      "price_ils": 2400,
+      "sort_order": 3,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-4",
+      "painting_id": "painting-2",
+      "size_label_he": "70x70",
+      "price_ils": 3200,
+      "sort_order": 4,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-5",
+      "painting_id": "painting-2",
+      "size_label_he": "80x80",
+      "price_ils": 4200,
+      "sort_order": 5,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-6",
+      "painting_id": "painting-2",
+      "size_label_he": "90x90",
+      "price_ils": 5400,
+      "sort_order": 6,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-7",
+      "painting_id": "painting-2",
+      "size_label_he": "100x100",
+      "price_ils": 6800,
+      "sort_order": 7,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-8",
+      "painting_id": "painting-2",
+      "size_label_he": "120x120",
+      "price_ils": 9200,
+      "sort_order": 8,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-9",
+      "painting_id": "painting-2",
+      "size_label_he": "30x40",
+      "price_ils": 900,
+      "sort_order": 9,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-10",
+      "painting_id": "painting-2",
+      "size_label_he": "35x50",
+      "price_ils": 1300,
+      "sort_order": 10,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-11",
+      "painting_id": "painting-2",
+      "size_label_he": "40x60",
+      "price_ils": 1600,
+      "sort_order": 11,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-12",
+      "painting_id": "painting-2",
+      "size_label_he": "50x70",
+      "price_ils": 2200,
+      "sort_order": 12,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-13",
+      "painting_id": "painting-2",
+      "size_label_he": "60x80",
+      "price_ils": 2900,
+      "sort_order": 13,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-14",
+      "painting_id": "painting-2",
+      "size_label_he": "70x90",
+      "price_ils": 3800,
+      "sort_order": 14,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-15",
+      "painting_id": "painting-2",
+      "size_label_he": "80x100",
+      "price_ils": 4900,
+      "sort_order": 15,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-16",
+      "painting_id": "painting-2",
+      "size_label_he": "95x120",
+      "price_ils": 7200,
+      "sort_order": 16,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-17",
+      "painting_id": "painting-2",
+      "size_label_he": "55x70",
+      "price_ils": 2600,
+      "sort_order": 17,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-18",
+      "painting_id": "painting-2",
+      "size_label_he": "65x80",
+      "price_ils": 3400,
+      "sort_order": 18,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-19",
+      "painting_id": "painting-2",
+      "size_label_he": "75x90",
+      "price_ils": 4400,
+      "sort_order": 19,
+      "is_active": true,
+      "is_default": false
+    },
+    {
+      "id": "size-painting-2-20",
+      "painting_id": "painting-2",
+      "size_label_he": "85x100",
+      "price_ils": 5600,
+      "sort_order": 20,
+      "is_active": true,
+      "is_default": false
+    }
+  ]
+}
