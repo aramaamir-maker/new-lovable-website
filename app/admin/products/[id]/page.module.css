@@ -503,4 +503,64 @@ input:checked+.slider:before {
     .mediaGrid {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .tableHeader,
+    .tableRow {
+        grid-template-columns: 1fr 1fr;
+        /* Stack visually or use flex */
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--space-2);
+    }
+
+    .colOrder {
+        order: 1;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .colLabel {
+        order: 2;
+        width: 48%;
+    }
+
+    .colPrice {
+        order: 3;
+        width: 48%;
+    }
+
+    .colActive {
+        order: 4;
+        width: auto;
+        margin-right: auto;
+    }
+
+    .colDefault {
+        order: 5;
+        width: auto;
+    }
+
+    .colActions {
+        order: 6;
+        width: auto;
+    }
+
+    .colLabel input,
+    .sizeInput,
+    .colPrice input,
+    .priceInput {
+        width: 100%;
+        /* Full width within their 48% container */
+        min-width: 0;
+    }
+
+    .headerTitleRow {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--space-4);
+    }
+
+    .saveBtnTop {
+        width: 100%;
+    }
 }
