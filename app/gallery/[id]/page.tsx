@@ -55,6 +55,7 @@ function generateDefaultSizes(paintingId: string): PaintingSize[] {
         id: `gen-size-${i}`,
         painting_id: paintingId,
         size_label_he: s.label,
+        is_default: i === 0,
         price_ils: s.price,
         sort_order: i + 1,
         is_active: true
