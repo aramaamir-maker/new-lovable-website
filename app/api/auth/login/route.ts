@@ -1,9 +1,17 @@
 import { NextResponse } from 'next/server';
 import { verifyPassword, setAdminSession } from '@/lib/auth';
 
+
 export async function POST(request: Request) {
     try {
         const { password } = await request.json();
+
+        if (!process.env.ADMIN_PASSWORD) {
+            return NextResponse.json(
+                { error: 'שגיאת תצורה: סיסמת מנהל לא הוגדרה בשרת' },
+                { status: 500 }
+            );
+        }
 
         if (!password) {
             return NextResponse.json(
