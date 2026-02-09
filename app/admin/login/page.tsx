@@ -1,10 +1,10 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import styles from './page.module.css';
 
-export default function AdminLoginPage() {
+function AdminLoginInner() {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const [loading, setLoading] = useState(false);
@@ -66,16 +66,20 @@ export default function AdminLoginPage() {
 
                         {error && <p className={styles.error}>{error}</p>}
 
-                        <button
-                            type="submit"
-                            className={styles.submitBtn}
-                            disabled={loading}
-                        >
+                        <button type="submit" className={styles.submitBtn} disabled={loading}>
                             {loading ? 'מתחבר...' : 'כניסה'}
                         </button>
                     </form>
                 </div>
             </div>
         </div>
+    );
+}
+
+export default function AdminLoginPage() {
+    return (
+        <Suspense fallback={<div className={styles.page}>Loading...</div>}>
+            <AdminLoginInner />
+        </Suspense>
     );
 }
